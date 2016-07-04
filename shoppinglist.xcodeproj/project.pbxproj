@@ -13,6 +13,7 @@
 		613C07F31D24C24C00536F6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 613C07F21D24C24C00536F6F /* Assets.xcassets */; };
 		613C07F61D24C24C00536F6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 613C07F41D24C24C00536F6F /* LaunchScreen.storyboard */; };
 		613C07FE1D25152F00536F6F /* logo2.png in Resources */ = {isa = PBXBuildFile; fileRef = 613C07FD1D25152F00536F6F /* logo2.png */; };
+		613C08051D2A057D00536F6F /* testObjectview.m in Sources */ = {isa = PBXBuildFile; fileRef = 613C08041D2A057D00536F6F /* testObjectview.m */; };
 		C3AA48A593A80A02642C04EE /* Pods_shoppinglist.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CE695DDBFA0C051D0CE3D6A /* Pods_shoppinglist.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +29,8 @@
 		613C07F71D24C24C00536F6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		613C07FD1D25152F00536F6F /* logo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo2.png; path = ../../../../Desktop/logo2.png; sourceTree = "<group>"; };
 		613C07FF1D266EDA00536F6F /* shoppinglist-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "shoppinglist-Bridging-Header.h"; sourceTree = "<group>"; };
+		613C08031D2A057D00536F6F /* testObjectview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testObjectview.h; sourceTree = "<group>"; };
+		613C08041D2A057D00536F6F /* testObjectview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testObjectview.m; sourceTree = "<group>"; };
 		9CE695DDBFA0C051D0CE3D6A /* Pods_shoppinglist.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_shoppinglist.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -76,6 +79,8 @@
 				613C07FD1D25152F00536F6F /* logo2.png */,
 				613C07EB1D24C24C00536F6F /* AppDelegate.swift */,
 				613C07ED1D24C24C00536F6F /* ViewController.swift */,
+				613C08031D2A057D00536F6F /* testObjectview.h */,
+				613C08041D2A057D00536F6F /* testObjectview.m */,
 				613C07EF1D24C24C00536F6F /* Main.storyboard */,
 				613C07F21D24C24C00536F6F /* Assets.xcassets */,
 				613C07F41D24C24C00536F6F /* LaunchScreen.storyboard */,
@@ -219,6 +224,7 @@
 			files = (
 				613C07EE1D24C24C00536F6F /* ViewController.swift in Sources */,
 				613C07EC1D24C24C00536F6F /* AppDelegate.swift in Sources */,
+				613C08051D2A057D00536F6F /* testObjectview.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

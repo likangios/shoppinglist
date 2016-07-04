@@ -12,8 +12,13 @@ import MBProgressHUD
 
 class ViewController: UIViewController {
     
+    var testeview:testObjectview!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+     
+        self.testeview = testObjectview.init()
+        
         
     }
 
