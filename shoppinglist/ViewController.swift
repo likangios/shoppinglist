@@ -10,13 +10,14 @@ import UIKit
 
 import MBProgressHUD
 
+import MyLayout
+
 class ViewController: UIViewController {
     
     var testeview:testObjectview!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-     
         self.testeview = testObjectview.init()
         
         
